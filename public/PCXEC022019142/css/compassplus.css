@@ -1,0 +1,276 @@
+#logo
+{
+  z-index: 10;
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 3%;
+}
+
+#menu
+{
+  right: 0;
+  z-index: 9;
+  position: absolute;
+  margin-top: 3%;
+  margin-right: 3%;
+}
+
+#modalMenuBtn
+{
+  position: absolute;
+  right: 0;
+  margin-top: 3%;
+  margin-right: 3%;
+  z-index: 9;
+}
+
+#mainBgDimmer
+{
+  z-index: 8;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#title
+{
+  font-family: 'Comfortaa', cursive;
+  font-size: 90px;
+  font-weight: 300;
+}
+
+#titleSuffix
+{
+  font-family: 'Comfortaa', cursive;
+  font-size: 90px;
+  font-weight: 700;
+}
+
+#slogan
+{
+  font-family: 'Comfortaa', cursive;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+#sections
+{
+  padding-top: 25px;
+}
+
+#subMenu1
+{
+  background-image: url('../res/images/bg3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 3%;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  color: white;
+}
+
+#subMenu2
+{
+  background-image: url('../res/images/bg2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 3%;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  color: white;
+}
+
+#newsletterForm
+{
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+
+#socialList
+{
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+#testimonialsGrid
+{
+  padding-top: 75px;
+}
+
+#loginGrid
+{
+  height: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#loginBg
+{
+  background-image: url('../res/images/bg7.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#loginTitle
+{
+  font-family: 'Comfortaa', cursive !important;
+  font-weight: 700 !important;
+  font-size: 45px;
+  margin-left: 10%;
+  color: white;
+  top: 50%;
+  position: absolute;
+  transform: translateY(-100%);
+}
+
+#loginText
+{
+  font-family: 'Comfortaa', cursive !important;
+  font-weight: 300 !important;
+  font-size: 25px;
+  margin-left: 10%;
+  color: white;
+  top: 50%;
+  position: absolute;
+}
+
+#loginSegment
+{
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+input
+{
+  font-family: 'Comfortaa', cursive !important;
+  font-weight: 300 !important;
+}
+
+footer
+{
+  margin-top: 25px;
+  background-image: url('../res/images/bg5.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 3%;
+}
+
+.planTitle
+{
+  font-family: 'Comfortaa', cursive;
+  font-weight: 300;
+  font-size: 25px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.planPrice
+{
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.planText
+{
+  font-family: 'Comfortaa', cursive;
+  font-weight: 300;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.testimonialsText
+{
+  font-family: 'Comfortaa', cursive;
+  font-weight: 300;
+}
+
+.positionText
+{
+  font-family: 'Comfortaa', cursive;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.planBtn
+{
+  margin-top: 50px !important;
+  font-family: 'Comfortaa', cursive !important;
+  font-weight: 300 !important;
+}
+
+.sectionsText
+{
+  font-family: 'Comfortaa', cursive !important;
+  font-weight: 700 !important;
+}
+
+.menuItem
+{
+  font-family: 'Comfortaa', cursive !important;
+  color: white !important;
+  font-weight: 300 !important;
+}
+
+.sectionsItem
+{
+  font-size: 80px;
+}
+
+.sectionsSegment
+{
+  padding: 15px;
+  height: 100%;
+}
+
+.fakeLogo
+{
+  filter: grayscale(100%);
+}
+
+.fakeLogo:hover
+{
+  cursor: pointer;
+  filter: grayscale(0%);
+}
+
+.socialLink
+{
+  font-size: 25px !important;
+}
+
+.lineMargin
+{
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px)
+{
+  #title
+  {
+    font-family: 'Comfortaa', cursive;
+    font-size: 45px;
+    font-weight: 300;
+  }
+
+  #titleSuffix
+  {
+    font-family: 'Comfortaa', cursive;
+    font-size: 45px;
+    font-weight: 700;
+  }
+
+  #slogan
+  {
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    font-weight: 300;
+  }
+}
