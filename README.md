@@ -12,4 +12,3 @@ composer install
 php artisan key:generate
 php artisan serve
 ```
-To send email via *contact* page you should set mail config in *.env* file.
