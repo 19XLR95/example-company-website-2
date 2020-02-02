@@ -63,7 +63,7 @@ class Handler extends ExceptionHandler
         }
         else
         {
-          return parent::render($request, $exception);
+          return redirect()->route('500');
         }
     }
 }

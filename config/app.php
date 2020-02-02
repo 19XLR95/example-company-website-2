@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'ClasX Software Customer Monitor Panel'),
+    'name' => env('APP_NAME', 'Example Company Customer Monitor Panel'),
 
     /*
     |--------------------------------------------------------------------------

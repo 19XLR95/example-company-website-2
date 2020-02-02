@@ -321,8 +321,8 @@
         </div>
 
         <div class="ui sixteen wide center aligned column">
-          <a style="color: white;" class="sectionsText" href="https://clasxsoft.com">
-              All rights reserved. | ClasX Software &reg
+          <a style="color: white;" class="sectionsText" href="https://examplesoft.com">
+              All rights reserved. | Example Software &reg
             </a>
         </div>
       </div>
