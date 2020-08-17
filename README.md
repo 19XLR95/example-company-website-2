@@ -1,4 +1,7 @@
 # Example Company CMP
+
+![The project's screenshot.](ss/ss1.png)
+
 This is full-stack application that uses [this html template](https://github.com/19XLR95/example-company-website-template-2).
 
 It is responsive and has i18n (EN & TR) support. *Login* doesn't work, you should set database config in *.env* file. The project have built with PHP and [Laravel](https://laravel.com/).
